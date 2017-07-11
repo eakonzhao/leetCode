@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf2061ed-1914-4f27-9116-49c1e0048185" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_18_4Sum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_19_RemoveNthNodeFromEndOfList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_20_ValidParentheses.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_21_MergeTwoSortedLists.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_22_GenerateParentheses.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_23_MergeKSortedLists.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_24_SwapNodesInPairs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_25_ReverseNodesInKGroup.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_15_3Sum.java" afterPath="$PROJECT_DIR$/src/_15_3Sum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_23_MergeKSortedLists.java" afterPath="$PROJECT_DIR$/src/_23_MergeKSortedLists.java" />
     </list>
     <ignored path="leetCode-solution.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,18 +30,8 @@
       <file leaf-file-name="_16_3SumClosest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_16_3SumClosest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
+            <state relative-caret-position="252">
               <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_17_LetterCombinationsofaPhoneNumber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_17_LetterCombinationsofaPhoneNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -55,11 +40,10 @@
       <file leaf-file-name="_18_4Sum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_18_4Sum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
+            <state relative-caret-position="2121">
               <caret line="103" column="27" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#260#275#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,8 +52,8 @@
       <file leaf-file-name="_22_GenerateParentheses.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_22_GenerateParentheses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,11 +61,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_23_MergeKSortedLists.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_23_MergeKSortedLists.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_23_MergeKSortedLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="307">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_24_SwapNodesInPairs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_24_SwapNodesInPairs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_25_ReverseNodesInKGroup.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_25_ReverseNodesInKGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -110,18 +114,8 @@
       <file leaf-file-name="_21_MergeTwoSortedLists.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_21_MergeTwoSortedLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_4_MedianofTwoSortedArrays.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_4_MedianofTwoSortedArrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="761">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -191,6 +185,8 @@
         <option value="$PROJECT_DIR$/src/_21_MergeTwoSortedLists.java" />
         <option value="$PROJECT_DIR$/src/_22_GenerateParentheses.java" />
         <option value="$PROJECT_DIR$/src/_23_MergeKSortedLists.java" />
+        <option value="$PROJECT_DIR$/src/_24_SwapNodesInPairs.java" />
+        <option value="$PROJECT_DIR$/src/_25_ReverseNodesInKGroup.java" />
       </list>
     </option>
   </component>
@@ -238,7 +234,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -274,6 +269,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -288,22 +284,7 @@
     <property name="last_opened_file_path" value="D:/getOfferCodePractice" />
     <property name="SearchEverywhereHistoryKey" value="line&#9;ACTION&#9;EditorToggleShowLineNumbers" />
   </component>
-  <component name="RunManager" selected="Application._22_GenerateParentheses">
-    <configuration default="false" name="_17_LetterCombinationsofaPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="_17_LetterCombinationsofaPhoneNumber" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="leetCode-solution" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application._25_ReverseNodesInKGroup">
     <configuration default="false" name="Eakon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Eakon" />
@@ -352,6 +333,21 @@
     <configuration default="false" name="_22_GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="_22_GenerateParentheses" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="leetCode-solution" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="_25_ReverseNodesInKGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="_25_ReverseNodesInKGroup" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -779,19 +775,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application._17_LetterCombinationsofaPhoneNumber" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Eakon" />
-      <item index="2" class="java.lang.String" itemvalue="Application._1_TwoSum" />
-      <item index="3" class="java.lang.String" itemvalue="Application._20_ValidParentheses" />
-      <item index="4" class="java.lang.String" itemvalue="Application._22_GenerateParentheses" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Eakon" />
+      <item index="1" class="java.lang.String" itemvalue="Application._1_TwoSum" />
+      <item index="2" class="java.lang.String" itemvalue="Application._20_ValidParentheses" />
+      <item index="3" class="java.lang.String" itemvalue="Application._22_GenerateParentheses" />
+      <item index="4" class="java.lang.String" itemvalue="Application._25_ReverseNodesInKGroup" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application._22_GenerateParentheses" />
-        <item index="1" class="java.lang.String" itemvalue="Application._20_ValidParentheses" />
-        <item index="2" class="java.lang.String" itemvalue="Application._1_TwoSum" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Eakon" />
-        <item index="4" class="java.lang.String" itemvalue="Application._17_LetterCombinationsofaPhoneNumber" />
+        <item index="0" class="java.lang.String" itemvalue="Application._25_ReverseNodesInKGroup" />
+        <item index="1" class="java.lang.String" itemvalue="Application._22_GenerateParentheses" />
+        <item index="2" class="java.lang.String" itemvalue="Application._20_ValidParentheses" />
+        <item index="3" class="java.lang.String" itemvalue="Application._1_TwoSum" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Eakon" />
       </list>
     </recent_temporary>
   </component>
@@ -819,14 +815,15 @@
       <workItem from="1498985681760" duration="2309000" />
       <workItem from="1499567513810" duration="798000" />
       <workItem from="1499655079818" duration="14474000" />
+      <workItem from="1499734120218" duration="16349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88511000" />
+    <option name="totallyTimeSpent" value="104860000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -841,14 +838,14 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.120726496" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14903846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35983264" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2039749" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -864,7 +861,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="28" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -873,20 +870,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/_198_HouseRobber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_343_IntegetBreak.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_1_TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -1113,22 +1096,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Eakon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eakon.java" />
+    <entry file="file://$PROJECT_DIR$/src/Singleton.java" />
     <entry file="file://$PROJECT_DIR$/src/_4_MedianofTwoSortedArrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1147,7 +1116,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_16_3SumClosest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
+        <state relative-caret-position="252">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
@@ -1179,29 +1148,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_20_ValidParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_21_MergeTwoSortedLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_18_4Sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+        <state relative-caret-position="2121">
           <caret line="103" column="27" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#260#275#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1218,24 +1170,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_22_GenerateParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/_20_ValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_21_MergeTwoSortedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="761">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/_23_MergeKSortedLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="307">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_24_SwapNodesInPairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_25_ReverseNodesInKGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
           <folding />
         </state>
       </provider>
