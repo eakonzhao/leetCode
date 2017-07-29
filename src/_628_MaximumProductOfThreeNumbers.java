@@ -3,6 +3,6 @@
  */
 public class _628_MaximumProductOfThreeNumbers {
     public int maximumProduct(int[] nums) {
-
+        return 0;
     }
 }
