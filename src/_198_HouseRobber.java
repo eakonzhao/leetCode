@@ -32,15 +32,12 @@ public class _198_HouseRobber {
         if(nums==null || nums.length==0) return 0;
         int n = nums.length;
         int[] dp = new int[n];
-        for(int i=0; i<n; i++){
-            dp[i]=-1;
-        }
         return tryRob(nums,dp,0);
     }
 
     private int tryRob(int[] nums, int[] dp, int index){
         if(index>=dp.length) return 0;
-        if(dp[index]==-1){
+        if(dp[index]==0){
             int result= 0;
             for(int i=index; i<dp.length; i++){
                result =  Math.max(nums[i]+tryRob(nums,dp,index+2),result);
@@ -49,7 +46,7 @@ public class _198_HouseRobber {
         }
         return dp[index];
     }
-    /**
+     /**
      * 动态规划
      * @param nums
      * @return
