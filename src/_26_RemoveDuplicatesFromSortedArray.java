@@ -39,14 +39,13 @@ public class _26_RemoveDuplicatesFromSortedArray {
      * @return
      */
     public int removeDuplicates(int[] nums) {
-        if(nums==null||nums.length==0) return 0;
-        int i=1;
-        for(int n:nums){
-            if(n>nums[i-1]){
-                nums[i++]=n;
+        if(nums==null || nums.length==0) return 0;
+        int insertIndex=1;
+        for(int i=1; i<nums.length; i++){
+            if(nums[i]>nums[i-1]){
+                nums[insertIndex++] = nums[i];
             }
         }
-        return i;
+        return insertIndex;
     }
-
 }
