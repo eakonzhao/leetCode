@@ -1,24 +1,25 @@
-import java.util.HashSet;
-import java.util.Set;
-
 /**
  * Created by Eakon on 2017/6/16.
  */
 public class _3_LongestSubstringWithoutRepeatingCharacters {
-    public int lengthOfLongestSubstring(String s) {
-        int result=0;
-        if(s!=null&&s.length()!=0){
-            Set<Character> set = new HashSet<>();
-            int i=0,j=0;
-            while(j<s.length()){
-                if(!set.contains(s.charAt(j))){
-                    set.add(s.charAt(j++));
-                    result=Math.max(result,set.size());
-                }else{
-                    set.remove(s.charAt(i++));
-                }
+    /**
+     * 滑动窗口问题  438 76
+     * @param s
+     * @return
+     */
+    public int lengthOfLongestSubstring(String s){
+        int begin=0, end=0, length=0;
+        int[] hash = new int[256];
+        while(end < s.length()){
+            if(hash[s.charAt(end)]==0){
+                hash[s.charAt(end)]++;
+                end++;
+            }else{
+                hash[s.charAt(begin)]--;
+                begin++;
             }
+            length = Math.max(length,end-begin);
         }
-        return result;
+        return length;
     }
 }
