@@ -9,10 +9,10 @@ public class _19_RemoveNthNodeFromEndOfList {
         ListNode slow=head;
         ListNode pre=null;
         ListNode fast=head;
-        for(int i=1; i<n&&fast!=null; i++){
+        for(int i=1; i<=n&&fast!=null; i++){
          fast=fast.next;
         }
-        while(fast.next!=null){
+        while(fast!=null){
             fast=fast.next;
             pre=slow;
             slow=slow.next;
