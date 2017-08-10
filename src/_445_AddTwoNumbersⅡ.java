@@ -20,31 +20,17 @@ public class _445_AddTwoNumbersⅡ {
         }
         int carry = 0;//是否有进位
         ListNode dummy = new ListNode(-1);
-        ListNode cur = dummy;
+        ListNode cur = null;
+        ListNode next = null;
         while(carry == 1 || !stack1.isEmpty() || !stack2.isEmpty()){
             int sum = (stack1.peek()==null?0:stack1.pop().val) + (stack2.peek()==null?0:stack2.pop().val) + carry;
-            cur.next = new ListNode(sum%10);
-            cur = cur.next;
+            cur = new ListNode(sum%10);
+            cur.next = next;
+            dummy.next = cur;
+            next = cur;
             carry = sum/10;
         }
 
-        ListNode result = reverse(dummy.next);
-        return result;
-    }
-
-    private ListNode reverse(ListNode node){
-        if(node == null || node.next == null) return node;
-        ListNode pre = null;
-        ListNode cur = node;
-        ListNode next = cur.next;
-
-        while(cur != null){
-            cur.next = pre;
-            pre = cur;
-            cur = next;
-            if(cur != null) next = cur.next;
-        }
-
-        return pre;
+        return dummy.next;
     }
 }

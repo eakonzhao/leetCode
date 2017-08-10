@@ -4,30 +4,39 @@ import util.ListNode;
  * Created by Eakon on 2017/7/11.
  */
 public class _24_SwapNodesInPairs {
-    public ListNode swapPairs(ListNode head) {
-        if(head==null||head.next==null) return head;//链表为空或者链表只有一个节点
-        ListNode result=null;//最后返回的头节点
-        ListNode left=head;
-        ListNode right=head.next;
-        ListNode pre=null;
-        while(left!=null&&right!=null){
-            if(result==null){
-                result=right;
-            }
-            if(pre!=null){
-                pre.next=right;
-                left.next=right.next;
-                right.next=left;
-            }else{
-                left.next=right.next;
-                right.next=left;
-            }
-            pre=left;
-            left=pre.next;
-            if(left!=null){
-                right=left.next;
-            }
+
+    /**
+     * 递归
+     * @param head
+     * @return
+     */
+    public ListNode swapPairs(ListNode head){
+        if(head==null || head.next==null) return head;
+        ListNode node = head.next;
+        head.next = swapPairs(head.next.next);
+        node.next = head;
+        return node;
+    }
+
+    /**
+     * 非递归
+     * @param head
+     * @return
+     */
+    public ListNode swapPairs2(ListNode head){
+        if(head==null || head.next==null) return head;
+        ListNode dummy = new ListNode(-1);
+        ListNode cur = head;
+        ListNode next = cur.next;
+        ListNode pre = dummy;
+        while(cur!=null && next!=null){
+            cur.next = next.next;
+            next.next = cur;
+            pre.next = next;
+            pre = cur;
+            cur = cur.next;
+            if(cur != null) next = cur.next;
         }
-        return result;
+        return dummy.next;
     }
 }
