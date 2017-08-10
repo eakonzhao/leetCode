@@ -4,28 +4,6 @@ import util.ListNode;
  * Created by Eakon on 2017/6/16.
  */
 public class _2_AddTwoNumbers {
-
-    /**
-     * 参考别人答案之后写下的更优的解法
-     * @param l1
-     * @param l2
-     * @return
-     */
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2){
-        ListNode node = new ListNode(0);
-        ListNode result = node;
-        int carry = 0;
-        while(l1!=null||l2!=null||carry!=0){
-            int sum = ((l1==null)?0:l1.val)+((l2==null)?0:l2.val)+carry;
-            carry=sum/10;
-            node.next=new ListNode(sum%10);
-            node=node.next;
-            l1=(l1==null)?l1:l1.next;
-            l2=(l2==null)?l2:l2.next;
-        }
-        return result.next;
-    }
-
     /**
      * 下面是我第一次AC时的写法
      * @param l1
@@ -81,5 +59,56 @@ public class _2_AddTwoNumbers {
         }
         if(carry==1) node.next=new ListNode(1);
         return result.next;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /**
+     * 参考别人答案之后写下的更优的解法
+     * @param l1
+     * @param l2
+     * @return
+     */
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2){
+        ListNode dummy = new ListNode(-1);
+        ListNode cur = dummy;
+        int carry = 0;
+        while(carry==1 || l1!=null || l2 !=null){
+            int sum = (l1==null?0:l1.val) + (l2==null?0:l2.val) + carry;
+            cur.next = new ListNode(sum%10);
+            carry = sum/10;
+            cur = cur.next;
+            l1 = (l1==null)?l1:l1.next;
+            l2 = (l2==null)?l2:l2.next;
+        }
+        return dummy.next;
     }
 }
